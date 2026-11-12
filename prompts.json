@@ -1,0 +1,38 @@
+[
+  {
+    "seedpaper_id": "fast01",
+    "prompt_id": "prompt1",
+    "prompt_version": "v3",
+    "type": "rqc",
+    "seed_included_count": 24,
+    "include_ci": false,
+    "query_text": "Does intermittent fasting improve cognitive function and executive performance in healthy or clinical adult human populations?"
+  },
+  {
+    "seedpaper_id": "fast01",
+    "prompt_id": "prompt2",
+    "prompt_version": "v3",
+    "type": "rqc2",
+    "seed_included_count": 24,
+    "include_ci": false,
+    "query_text": "Studies investigating intermittent fasting regimens—including alternate-day fasting, the 5:2 diet, and time-restricted feeding—and their measured effects on cognitive function, executive processing, or memory performance in human adults aged 18 and older. Exclude animal models, pediatric populations, studies combining fasting with caloric restriction beyond standard protocol, or interventions lacking objective cognitive test outcomes."
+  },
+  {
+    "seedpaper_id": "fast01",
+    "prompt_id": "prompt4",
+    "prompt_version": "v3",
+    "type": "rqc2_ci",
+    "seed_included_count": 24,
+    "include_ci": true,
+    "query_text": "Studies investigating intermittent fasting regimens—including alternate-day fasting, the 5:2 diet, and time-restricted feeding—and their measured effects on cognitive function, executive processing, or memory performance in human adults aged 18 and older. Exclude animal models, pediatric populations, studies combining fasting with caloric restriction beyond standard protocol, or interventions lacking objective cognitive test outcomes."
+  },
+  {
+    "seedpaper_id": "fast01",
+    "prompt_id": "prompt5",
+    "prompt_version": "v3",
+    "type": "cot",
+    "seed_included_count": 24,
+    "include_ci": false,
+    "query_text": "Sampling scope:\nStudies evaluating the empirical impact of intermittent fasting protocols on cognitive function, working memory, and executive performance in adult human populations.\n\nInclusion criteria:\n- The intervention must evaluate an intermittent fasting protocol (alternate-day fasting, 16:8 time-restricted feeding, or 5:2 diet).\n- The study sample must consist of human adults aged 18 years or older.\n- The study must report quantitative baseline and post-intervention cognitive performance metrics using validated neuropsychological instruments.\n\nExclusion criteria:\n- Studies conducted exclusively in non-human animal models or in vitro cellular systems.\n- Narrative reviews, editorials, commentaries, or study protocols without empirical outcome data."
+  }
+]

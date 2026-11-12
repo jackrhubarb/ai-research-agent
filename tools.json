@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Perplexity",
+    "system_id": "perplexity",
+    "function": "search",
+    "model_version": "unknown",
+    "premium": "free",
+    "format_type": 3,
+    "url": "https://www.perplexity.ai/",
+    "notes": "Locate search bar, input query, submit, extract BibTeX.",
+    "enabled": true
+  },
+  {
+    "name": "Consensus_Quick",
+    "system_id": "consensus",
+    "function": "papersearch",
+    "model_version": "unknown",
+    "premium": "free",
+    "format_type": 1,
+    "url": "https://consensus.app/search/",
+    "notes": "Consensus open paper search. Direct query input.",
+    "enabled": true
+  },
+  {
+    "name": "Scinapse",
+    "system_id": "scinapse",
+    "function": "search",
+    "model_version": "unknown",
+    "premium": "free",
+    "format_type": 2,
+    "url": "https://scinapse.io/",
+    "notes": "Academic search engine. Query + Output format instructions.",
+    "enabled": true
+  },
+  {
+    "name": "You",
+    "system_id": "you",
+    "function": "search",
+    "model_version": "unknown",
+    "premium": "free",
+    "format_type": 3,
+    "url": "https://you.com/",
+    "notes": "General AI search. Task + Query + Output format.",
+    "enabled": true
+  },
+  {
+    "name": "ChatGPT_Consensus",
+    "system_id": "chatgpt",
+    "function": "consensus_gpt",
+    "model_version": "gpt4",
+    "premium": "pro",
+    "format_type": 2,
+    "url": "https://chatgpt.com/g/g-bo0FiWLY7-consensus",
+    "notes": "Consensus GPT inside ChatGPT. Requires login.",
+    "enabled": false
+  },
+  {
+    "name": "Elicit",
+    "system_id": "elicit",
+    "function": "findpapers",
+    "model_version": "unknown",
+    "premium": "free",
+    "format_type": 1,
+    "url": "https://elicit.com/",
+    "notes": "Direct query only without persona wrapper. Requires login.",
+    "enabled": false
+  }
+]

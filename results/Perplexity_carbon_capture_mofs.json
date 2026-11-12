@@ -1,0 +1,52 @@
+[
+  {
+    "citation": "Sriram, A., Brabson, L. M., Yu, X., et al. (2026). An open dataset of gas adsorption in deformable metal–organic frameworks for direct air capture. Nature Chemical Engineering. https://doi.org/10.1038/s44286-026-00445-5",
+    "type": "dataset and computational screening",
+    "key_contribution": "Introduces ODAC25, a large open DFT dataset covering CO2, H2O, N2, and O2 adsorption in approximately 15,000 MOFs for DAC-oriented machine-learning and screening."
+  },
+  {
+    "citation": "Feng, Y., Dong, L., Loy, A. C. M., Zavabeti, A., & Li, G. K. (2026). Metal–organic frameworks functionalization for direct air capture. Cambridge Prisms: Carbon Technologies, 2, e7. https://doi.org/10.1017/cat.2026.10015",
+    "type": "review",
+    "key_contribution": "Reviews MOF functionalization strategies for DAC, including stability, adsorption kinetics, and practical implementation considerations."
+  },
+  {
+    "citation": "Li, W.-L., Shuai, Q., & Yu, J. (2024). Recent Advances of Carbon Capture in Metal–Organic Frameworks: A Comprehensive Review. Small, 20, 2402783. https://doi.org/10.1002/smll.202402783",
+    "type": "review",
+    "key_contribution": "Provides a comprehensive overview of MOF-based carbon capture, spanning material design, capture mechanisms, and application considerations."
+  },
+  {
+    "citation": "Architecting Metal–Organic Frameworks at Molecular Level toward Direct Air Capture. (2025). Journal of the American Chemical Society, 147(7), 5495–5514. https://doi.org/10.1021/jacs.4c12200",
+    "type": "perspective",
+    "key_contribution": "Discusses molecular-level MOF design for trace CO2 capture, effects of water vapor, computational screening, and scale-up/cost barriers."
+  },
+  {
+    "citation": "Constructing Amine-Functionalized Hierarchically Porous Porphyrin-Based Metal-Organic Frameworks for Highly Enhanced Direct Air Capture of CO2. (2025). ACS Applied Materials & Interfaces, 17(34), 48360–48374. https://doi.org/10.1021/acsami.5c11754",
+    "type": "experimental materials study",
+    "key_contribution": "Reports amine-functionalized hierarchically porous porphyrin MOFs with enhanced DAC performance; the DETA-functionalized material achieved 1.40 mmol g-1 CO2 uptake and 84% regeneration efficiency after ten cycles."
+  },
+  {
+    "citation": "Water-Enhanced Direct Air Capture of Carbon Dioxide in Metal-Organic Frameworks. (2024). Journal of the American Chemical Society, 146(4), 2835–2844. https://doi.org/10.1021/jacs.3c14125",
+    "type": "experimental mechanism study",
+    "key_contribution": "Demonstrates water-enhanced CO2 capture in amine-functionalized Zr-MOF-808 materials and links improved uptake to bicarbonate formation under humid conditions."
+  },
+  {
+    "citation": "Zhang, X., Zhao, H., Yang, Q., Yao, M., Wu, Y.-N., & Gu, Y. (2023). Direct air capture of CO2 in designed metal-organic frameworks at lab and pilot scale. Carbon Capture Science & Technology, 9, 100145. https://doi.org/10.1016/j.ccst.2023.100145",
+    "type": "review and scale-up assessment",
+    "key_contribution": "Assesses designed MOFs for DAC from laboratory performance through pilot-scale deployment considerations."
+  },
+  {
+    "citation": "Abdelnaby, M. M., Tayeb, I. M., Alloush, A. M., Alyosef, H. A., Alnoaimi, A., Zeama, M., Mohammed, M. G., & Onaizi, S. A. (2024). Post-synthetic modification of UiO-66 analogue metal-organic framework as potential solid sorbent for direct air capture. Journal of CO2 Utilization, 79, 102647. https://doi.org/10.1016/j.jcou.2023.102647",
+    "type": "experimental materials study",
+    "key_contribution": "Explores postsynthetic modification of a UiO-66 analogue MOF as a solid sorbent for direct air capture."
+  },
+  {
+    "citation": "Mahajan, S., Elfving, J., & Lahtinen, M. (2024). Evaluating the viability of ethylenediamine-functionalized Mg-MOF-74 in direct air capture: The challenges of stability and slow adsorption rate. Journal of Environmental Chemical Engineering, 12(2), 112193. https://doi.org/10.1016/j.jece.2024.112193",
+    "type": "experimental evaluation",
+    "key_contribution": "Identifies stability and slow adsorption kinetics as practical limitations of ethylenediamine-functionalized Mg-MOF-74 for DAC."
+  },
+  {
+    "citation": "Wansa, C., Sittiwong, J., Srifa, P., Maihom, T., & Limtrakul, J. (2024). Insights into carbon dioxide capture over glycine-functionalized metal-organic framework-808 from DFT calculations. ChemNanoMat, 10, e202400012. https://doi.org/10.1002/cnma.202400012",
+    "type": "computational study",
+    "key_contribution": "Uses DFT calculations to clarify CO2 capture interactions in glycine-functionalized MOF-808."
+  }
+]

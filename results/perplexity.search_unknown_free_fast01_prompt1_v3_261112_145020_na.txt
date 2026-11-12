@@ -1,0 +1,2 @@
+System failed to compute query. Error details:
+Event handler browser_use.browser.watchdog_base.BrowserSession.on_BrowserStartEvent#4640(?▶ BrowserStartEvent#8d45 🏃) timed out after 30.0s and interrupted any processing of 1 child events
