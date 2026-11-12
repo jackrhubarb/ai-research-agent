@@ -26,7 +26,7 @@ elif os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY"):
     print("🤖 Using Google Gemini...")
     google_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
     # Using Gemini 3.8 Flash (fastest, most economical frontier vision model)
-    llm = ChatGoogle(model="gemini-3.8-flash", api_key=google_key)
+    llm = ChatGoogle(model="gemini-2.5-flash-lite", api_key=google_key)
 else:
     raise ValueError("❌ No valid API key found in .env!")
 
