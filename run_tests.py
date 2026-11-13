@@ -26,7 +26,7 @@ elif os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY"):
     print("🤖 Using Google Gemini...")
     google_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
     # Using Gemini 3.8 Flash (fastest, most economical frontier vision model)
-    llm = ChatGoogle(model="gemini-2.5-flash-lite", api_key=google_key)
+    llm = ChatGoogle(model="gemini-3.5-flash-lite", api_key=google_key)
 else:
     raise ValueError("❌ No valid API key found in .env!")
 
@@ -165,16 +165,19 @@ async def test_tool_prompt(tool: dict, prompt_item: dict):
     task_prompt = f"""
     1. Navigate to: {url}
     2. Specific site notes: {notes}
-    3. Dismiss any cookie banners or overlays immediately.
-    4. Input the following research query into the search or chat box:
+    3. Dismiss any cookie banners, sign-up modals, or overlays immediately.
+    4. Input the following exact research prompt into the main search or chat input box WITHOUT altering a single word:
 \"\"\"
 {final_query}
 \"\"\"
-    5. Press Enter or click Submit.
-    6. If a sign-up popup appears, press Escape or close it.
-    7. Wait until the generation finishes or results load.
-    8. Extract all returned academic papers in valid BibTeX format.
-    9. Call the done action with the complete BibTeX citations.
+    5. Press Enter or click Submit/Search.
+    6. If a sign-up modal pops up, press Escape or close it.
+    7. Wait until the generation finishes or the search results list loads completely.
+    8. RESULT EXTRACTION:
+       - If the tool generated text containing BibTeX (@article, etc.), copy that complete text.
+       - If the tool displays a list of search result cards/papers on the page, extract the titles, authors, years, and DOIs from the top relevant results and compile them into standard @article BibTeX entries.
+       - If the tool explicitly displays 0 results or "No papers found", report that no papers were found.
+    9. FINAL ACTION: Call the done tool and pass all compiled BibTeX entries into the text parameter.
     """
 
     browser = Browser(browser_profile=get_browser_profile())
